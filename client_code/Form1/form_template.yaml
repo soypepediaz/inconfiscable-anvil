@@ -1,0 +1,5 @@
+container:
+  type: HtmlTemplate
+  properties: {html: 'inconfiscable_anvil.html'}
+components: []
+is_package: true
