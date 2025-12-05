@@ -1,0 +1,22 @@
+name: Inconfiscable
+description: Calculadora DCA de Bitcoin
+startup_form: Form1
+db_schema: {}
+renamed: true
+runtime_options:
+  version: 2
+  client_version: '3'
+  server_version: python3-sandbox
+  server_spec: {requirements: 'yfinance==0.2.32
+pandas==2.1.1
+numpy==1.24.3
+python-dotenv==1.0.0'}
+services:
+  - source: /runtime/services/tables.yml
+    client_config: {}
+    server_config: {}
+startup:
+  module: Form1
+package_name: Inconfiscable
+allow_embedding: false
+github_connection: {}
